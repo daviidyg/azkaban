@@ -16,7 +16,6 @@ aforament int not null,
 numero_modul int not null,
 constraint cella_pk 
 primary key (numero_cella)
-
 );
 
 create table pres (
@@ -31,6 +30,7 @@ foreign key (numero_cella)
 references cella (numero_cella)
 ON UPDATE CASCADE
 );
+
 create table comdenna (
 dies_pel_delicte int not null,
 numero_pres_pres int not null, 
@@ -44,6 +44,7 @@ constraint pres_comdenna
 foreign key (numero_pres_pres)
 references pres (numero_pres),
 );
+
 create table permis (
 des_de date not null,
 fins_a date not null,
