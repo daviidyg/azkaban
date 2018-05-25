@@ -64,12 +64,15 @@ INSERTS
 insert into cella values (1,1,1)
 insert into cella values (2,2,2)
 insert into cella values (3,1,3)
+
 insert into pres values (1,'Carlotta Pinkstone','2018-01-01',1)
 insert into pres values (3,'Antonin Dolohov','2016-05-01',2)
 insert into pres values (2,'Bartemius Crouch Jr','2015-01-01',3)
+
 insert into delicte values (1,'Estatuto Internacional del Secreto Mágico')
 insert into delicte values (2,'Torturar con la maldición Cruciatus')
 insert into delicte values (3,'Assessinar')
+
 insert into comdenna values (600,1,1)
 insert into comdenna values (300,2,2)
 insert into comdenna values (900,3,2)
